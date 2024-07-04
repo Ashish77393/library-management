@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="https://tse4.mm.bing.net/th?id=OIP.P6V_eono0rGsHL9HL-5k6gHaJo&pid=Api&P=0&h=180">
+    <title>AdminPage</title>
+  </head>
+  
+    <style>
+        .container{
+            height:500px;
+            width:800px;
+            display: flex;
+            border: 1px solid black;
+            flex-wrap: wrap;
+            margin-left: 300px;
+             margin-top:100px;
+             border-radius: 10px;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background-image: url("http://jsvautomations.com/wp-content/uploads/2017/03/library-management-system.jpg");
+            
+        }
+        .row{
+            color:red;
+            font-weight: bolder;
+            height:350px;
+            border: 1px solid black;
+            padding-top: 20px;
+            border-radius: 10px;
+            width: 500px;
+            background:black;
+            text-align: center;
+        }
+        input{
+            color:green;
+            height:25px;
+            width:200px;
+        }
+        .log{
+            color:red;
+            background-color: green;
+            height:25px;
+            width:60px;
+            padding-left:10px;
+            padding-bottom: 10px;
+            border-radius: 10px;
+            margin-left: 40px;
+                  }
+    </style>
+    <body>
+           <div class="container">  
+              <div class="row">
+                  <h1>Login </h1>
+                  <img style="height: 50px; width: 50px; border-radius: 50%" src="https://tse1.mm.bing.net/th?id=OIP.T8KxdBzU1cndmTwhxMCsLwHaHa&pid=Api&rs=1&c=1&qlt=95&w=106&h=106">
+               <form action="servletmainpage" method="post">     
+                <label for="Name">Enter Name</label>
+                <input type="text" name="name1" placeholder="Enter name"><br><br>
+                 <label for="Password" >Enter Pass</label>
+                <input type="password" name="pass1"  placeholder="Enter password"><br><br>
+                <input class="log" type="submit" value="login">
+                     </form>
+                       </div>
+                   </div>
+              
+              
+            </body>  
+        </html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Details of User</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="https://tse4.mm.bing.net/th?id=OIP.P6V_eono0rGsHL9HL-5k6gHaJo&pid=Api&P=0&h=180">
+    </head>
+    <style>
+        .container{
+            color:white;
+            font-size: 25px;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid black;
+            background-image: url("https://partheniumprojects.com/wp-content/uploads/2019/01/Library-Management-System.jpg");
+           background-repeat: no-repeat;
+            text-align: center;
+            height: 600px;
+            width: 800px;
+            margin-left: 250px;
+        }
+        .cont{
+            color:red;
+            margin-top: 100px;
+            margin-left: 200px;
+            border: solid red 1px;
+            height: 400px;
+            width: 400px;
+            background-image:url("https://i.pinimg.com/originals/6d/13/13/6d1313e2948d96ef5dd777eb13cb2948.jpg") ;
+        
+            
+        }
+        .T1{
+            height: 20px;
+            width: 200px;
+            color:black;
+            height: 25px;
+            border-radius: 5px;
+        }
+        
+    </style>
+    <body>
+        <div class="container">
+            <div class="cont">
+        <form action="issuebook" method="post" >
+            Enter Name:<br><!-- comment -->
+            <input class="T1" type="text" name="name1" placeholder="enter Your name" required="" autofocus=""><br><!-- comment -->
+            Enter Enrollment Number:<br>
+            <input class="T1"  type="number" name="enroll" placeholder="enter Your Enrollment Number" required="" autofocus=""><br>
+            Enter Issue Date:<br><!-- comment -->
+            <input class="T1"  type="date" name="date1" required="" autofocus=""><br>
+            Enter Return Date:<br><!-- comment -->
+            <input class="T1"  type="date" name="date2" required="" autofocus=""><br>
+            Enter Book Name:<br><!-- comment -->
+            <input class="T1"  type="text" name="bookname" required="" autofocus=""><br>
+            <input style="background-color: red; color:black; width:80px;border-radius: 5px; " type="submit" value="submit">
+        </form>
+            </div>
+        </div>
+    </body>
+</html>
